@@ -1,3 +1,18 @@
 .pointer {
 	cursor: pointer;
 }
+
+.pointer:hover{
+	color: aquamarine;
+}
+
+.like-circle{
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	height:20px;
+	width: 20px;
+	border-radius: 50%;
+	background-color: red;
+	color: white
+}
